@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA665DD246F39470054DA9E /* iCounter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1DA665DC246F39470054DA9E /* iCounter WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DA665E3246F39470054DA9E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA665E1246F39470054DA9E /* Interface.storyboard */; };
+		1DA665E5246F39480054DA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA665E4246F39480054DA9E /* Assets.xcassets */; };
+		1DA665EC246F39490054DA9E /* iCounter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1DA665EB246F39490054DA9E /* iCounter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DA665F1246F39490054DA9E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA665F0246F39490054DA9E /* InterfaceController.swift */; };
+		1DA665F3246F39490054DA9E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA665F2246F39490054DA9E /* ExtensionDelegate.swift */; };
+		1DA665F5246F39490054DA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA665F4246F39490054DA9E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA665DE246F39470054DA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA665D2246F39470054DA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA665DB246F39470054DA9E;
+			remoteInfo = "iCounter WatchKit App";
+		};
+		1DA665ED246F39490054DA9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA665D2246F39470054DA9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA665EA246F39490054DA9E;
+			remoteInfo = "iCounter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DA665FC246F39490054DA9E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1DA665EC246F39490054DA9E /* iCounter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA66600246F39490054DA9E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1DA665DD246F39470054DA9E /* iCounter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DA665D8246F39470054DA9E /* iCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA665DC246F39470054DA9E /* iCounter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCounter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA665E2246F39470054DA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1DA665E4246F39480054DA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DA665E6246F39480054DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA665EB246F39490054DA9E /* iCounter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iCounter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA665F0246F39490054DA9E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1DA665F2246F39490054DA9E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1DA665F4246F39490054DA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DA665F6246F39490054DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA665E8246F39490054DA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA665D1246F39470054DA9E = {
+			isa = PBXGroup;
+			children = (
+				1DA665E0246F39470054DA9E /* iCounter WatchKit App */,
+				1DA665EF246F39490054DA9E /* iCounter WatchKit Extension */,
+				1DA665D9246F39470054DA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA665D9246F39470054DA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA665D8246F39470054DA9E /* iCounter.app */,
+				1DA665DC246F39470054DA9E /* iCounter WatchKit App.app */,
+				1DA665EB246F39490054DA9E /* iCounter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA665E0246F39470054DA9E /* iCounter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1DA665E1246F39470054DA9E /* Interface.storyboard */,
+				1DA665E4246F39480054DA9E /* Assets.xcassets */,
+				1DA665E6246F39480054DA9E /* Info.plist */,
+			);
+			path = "iCounter WatchKit App";
+			sourceTree = "<group>";
+		};
+		1DA665EF246F39490054DA9E /* iCounter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1DA665F0246F39490054DA9E /* InterfaceController.swift */,
+				1DA665F2246F39490054DA9E /* ExtensionDelegate.swift */,
+				1DA665F4246F39490054DA9E /* Assets.xcassets */,
+				1DA665F6246F39490054DA9E /* Info.plist */,
+			);
+			path = "iCounter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA665D7246F39470054DA9E /* iCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA66601246F39490054DA9E /* Build configuration list for PBXNativeTarget "iCounter" */;
+			buildPhases = (
+				1DA665D6246F39470054DA9E /* Resources */,
+				1DA66600246F39490054DA9E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA665DF246F39470054DA9E /* PBXTargetDependency */,
+			);
+			name = iCounter;
+			productName = iCounter;
+			productReference = 1DA665D8246F39470054DA9E /* iCounter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1DA665DB246F39470054DA9E /* iCounter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA665FD246F39490054DA9E /* Build configuration list for PBXNativeTarget "iCounter WatchKit App" */;
+			buildPhases = (
+				1DA665DA246F39470054DA9E /* Resources */,
+				1DA665FC246F39490054DA9E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA665EE246F39490054DA9E /* PBXTargetDependency */,
+			);
+			name = "iCounter WatchKit App";
+			productName = "iCounter WatchKit App";
+			productReference = 1DA665DC246F39470054DA9E /* iCounter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1DA665EA246F39490054DA9E /* iCounter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA665F9246F39490054DA9E /* Build configuration list for PBXNativeTarget "iCounter WatchKit Extension" */;
+			buildPhases = (
+				1DA665E7246F39490054DA9E /* Sources */,
+				1DA665E8246F39490054DA9E /* Frameworks */,
+				1DA665E9246F39490054DA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iCounter WatchKit Extension";
+			productName = "iCounter WatchKit Extension";
+			productReference = 1DA665EB246F39490054DA9E /* iCounter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA665D2246F39470054DA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = adf;
+				TargetAttributes = {
+					1DA665D7246F39470054DA9E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					1DA665DB246F39470054DA9E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					1DA665EA246F39490054DA9E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1DA665D5246F39470054DA9E /* Build configuration list for PBXProject "iCounter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DA665D1246F39470054DA9E;
+			productRefGroup = 1DA665D9246F39470054DA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA665D7246F39470054DA9E /* iCounter */,
+				1DA665DB246F39470054DA9E /* iCounter WatchKit App */,
+				1DA665EA246F39490054DA9E /* iCounter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA665D6246F39470054DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA665DA246F39470054DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA665E5246F39480054DA9E /* Assets.xcassets in Resources */,
+				1DA665E3246F39470054DA9E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA665E9246F39490054DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA665F5246F39490054DA9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA665E7246F39490054DA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA665F3246F39490054DA9E /* ExtensionDelegate.swift in Sources */,
+				1DA665F1246F39490054DA9E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA665DF246F39470054DA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA665DB246F39470054DA9E /* iCounter WatchKit App */;
+			targetProxy = 1DA665DE246F39470054DA9E /* PBXContainerItemProxy */;
+		};
+		1DA665EE246F39490054DA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA665EA246F39490054DA9E /* iCounter WatchKit Extension */;
+			targetProxy = 1DA665ED246F39490054DA9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DA665E1246F39470054DA9E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA665E2246F39470054DA9E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DA665F7246F39490054DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DA665F8246F39490054DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA665FA246F39490054DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adf.iCounter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		1DA665FB246F39490054DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adf.iCounter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		1DA665FE246F39490054DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = iCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "iCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = adf.iCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		1DA665FF246F39490054DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = iCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "iCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = adf.iCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		1DA66602246F39490054DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adf.iCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1DA66603246F39490054DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adf.iCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA665D5246F39470054DA9E /* Build configuration list for PBXProject "iCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA665F7246F39490054DA9E /* Debug */,
+				1DA665F8246F39490054DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA665F9246F39490054DA9E /* Build configuration list for PBXNativeTarget "iCounter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA665FA246F39490054DA9E /* Debug */,
+				1DA665FB246F39490054DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA665FD246F39490054DA9E /* Build configuration list for PBXNativeTarget "iCounter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA665FE246F39490054DA9E /* Debug */,
+				1DA665FF246F39490054DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA66601246F39490054DA9E /* Build configuration list for PBXNativeTarget "iCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA66602246F39490054DA9E /* Debug */,
+				1DA66603246F39490054DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DA665D2246F39470054DA9E /* Project object */;
+}

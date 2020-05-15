@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16096" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="iCounter_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="00" backgroundImage="gobackward" id="akF-3l-eO6">
+                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="font" type="system" weight="ultraLight" pointSize="100"/>
+                            <connections>
+                                <action selector="onTouch" destination="AgC-eL-Hgc" id="hLl-FB-SKc"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Reset" id="5ja-Vj-Gbp">
+                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="font" type="system" weight="ultraLight" pointSize="20"/>
+                            <connections>
+                                <action selector="onReset" destination="AgC-eL-Hgc" id="iXi-R2-K6a"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="btn" destination="akF-3l-eO6" id="9vO-Rb-vh0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="23"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gobackward" width="124" height="128"/>
+    </resources>
+</document>
